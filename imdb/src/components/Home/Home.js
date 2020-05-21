@@ -55,7 +55,7 @@ class Home extends Component {
 
     handleSubmit = () => {
         this.setState({
-            page: 0,
+            page: 1,
             movies: []
         })
         if (this.state.search =='' || this.state.searchBy == '') {
@@ -176,9 +176,9 @@ class Home extends Component {
                     
                     <div className="images">
                         <InfiniteScroll
-                            dataLength={this.state.movies.length}
+                            dataLength={this.state.movies ? this.state.movies.length : 0}
                             next={this.fetchMovies}
-                            hasMore={this.state.movies.length > 0}
+                            hasMore={this.state.movies ? this.state.movies.length > 0 : false}
                             loader={<h4>Loading...</h4>}
                         >
                             

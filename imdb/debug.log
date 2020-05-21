@@ -2,3 +2,7 @@
 [0521/092658.129:ERROR:crash_report_database_win.cc(445)] failed to read records
 [0521/194548.425:ERROR:file_io.cc(89)] ReadExactly: expected 448, observed 0
 [0521/194548.426:ERROR:crash_report_database_win.cc(445)] failed to read records
+[0522/020107.581:ERROR:file_io.cc(89)] ReadExactly: expected 448, observed 0
+[0522/020107.582:ERROR:crash_report_database_win.cc(445)] failed to read records
+[0522/021957.789:ERROR:file_io.cc(89)] ReadExactly: expected 448, observed 0
+[0522/021957.789:ERROR:crash_report_database_win.cc(445)] failed to read records
